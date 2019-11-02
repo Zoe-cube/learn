@@ -38,18 +38,19 @@ function guiling()
     if( t==null)
     {
         t = setInterval(count,1000);
+        
     }
     else{
         clearInterval(t);
         h=0;m=0;s=0;
         clock.innerHTML=h+"H"+m+'M'+s+'S'
         t = setInterval(count,1000);
+      
     }
     
 }
- let ul=document.getElementById('jici'),shanchu,i;
+//  let ul=document.getElementById('jici'),shanchu,i;
 // function jicishu(){
-//     ot=t;
 //     clearInterval(t);
 //     ot=day2.getFullYear()+"/" + (day2.getMonth()+1) + "/" + day2.getDate()+d.toLocaleTimeString();
 //     h=0,m=0,s=0;
